@@ -9,6 +9,7 @@ export const initialItems = [
 
 export const reducer = (state = initialItems, action) => {
   if (action.type === ITEM_ADDED) {
+    //action.type calls addFunction creator directly
     const item = { uuid: id++, quantity: 1, ...action.payload };
     return [...state, item];
   }
