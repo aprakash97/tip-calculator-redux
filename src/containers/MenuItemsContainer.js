@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { MenuItems } from './MenuItems';
+import { MenuItems } from '../components/MenuItems';
 
 const mapStateToProps = (state) => {
   return {
