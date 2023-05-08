@@ -4,11 +4,11 @@ import { addNewItem } from '../store/items/actions';
 // import { bindActionCreators } from 'redux';
 
 // const mapDispatchToProps = (dispatch) => {
-//   //Normal
+//   //Normal 1
 //   //   return {
 //   //     onSubmit: (name, price) => dispatch(addNewItem(name, price))
 //   //   };
-//   //using bindActionCreators
+//   //using bindActionCreators 2
 //   return bindActionCreators(
 //     {
 //       onSubmit: (name, price) => addNewItem(name, price)
