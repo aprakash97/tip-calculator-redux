@@ -2,7 +2,7 @@ import {
   ITEM_ADDED,
   ITEM_DELETED,
   ITEM_PRICE_UPDATED,
-  ITEM_QUANTITY_UPDATED
+  ITEM_QUANTITY_UPDATED,
 } from './actions';
 
 let id = 1;

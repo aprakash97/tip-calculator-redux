@@ -15,6 +15,7 @@ export const MenuItem = ({
   name,
   price,
   quantity,
+  //CHANGING total
   total,
   updatePrice = () => {},
   updateQuantity = () => {},
