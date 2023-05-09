@@ -7,7 +7,7 @@ export const NewItemForm = ({ onSubmit }) => {
 
   const isValid = () => {
     if (!name) return false;
-    if (!price.length) return false;
+    if (!price.length || isNaN(price)) return false;
     return true;
   };
 
@@ -15,7 +15,7 @@ export const NewItemForm = ({ onSubmit }) => {
     event.preventDefault();
 
     if (typeof onSubmit === 'function') {
-      onSubmit(name, price);
+      onSubmit(name, Number(price));
     }
 
     // dispatch({
